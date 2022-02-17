@@ -1,0 +1,90 @@
+.gol{
+	clear: both;
+}
+body
+{
+  background-size: 150% 150%;
+animation: gradient 100s ease infinite;
+background: url(https://www.ziarulderoman.ro/wp-content/uploads/2016/05/Chimie.jpg);
+}
+@keyframes gradient{
+	0%{
+		background-position: 0 50%
+	}
+	50%{
+		background-position: 100% 50%
+	}
+	100%{
+		background-position: 0 50%
+	}
+}
+.container{
+
+	position: absolute;
+	margin-left: 10%;
+	width: 80%;
+	height: 1150px;
+
+    background: linear-gradient(to right,#00FFFF 10% ,#00ff00 35%,70%,#00FFFF 75%);
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.block1{
+	margin: 1%;
+	height: 395px;
+	width: 98%;
+    animation: gradient 100s ease infinite;
+	background:url(https://i0.1616.ro/media/2/2621/33214/19945944/1/hidrogen-verde.jpg);
+	border-radius: 2%;
+}
+.block2{
+	background: rgba(255,255,255,.5);
+	width: 98%;
+	height: 60px;
+	margin: 1%;
+    text-align: center;
+
+}
+.block3{
+	width: 50%;
+	height: 200px;
+	background: rgba(255,255,255,.5);
+	float: right;
+	margin: 1%;
+
+
+}
+.block4{
+	width: 98%;
+	height: 625px;
+	margin: 1%;
+	background: rgba(255,255,255,.5);
+	float: left;
+	overflow:scroll
+}
+.imagine{
+	margin-top: 1%;
+	float: left;
+	max-width: 100%;
+}
+.antet{
+	color: #666699;
+}
+table {
+    border-collapse: collapse;
+    width: 98%;
+    margin:1%;
+
+}
+th, td {
+    text-align: center;
+    padding: 1px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #33334d;
+    color: white;
+}
